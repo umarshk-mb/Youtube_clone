@@ -1,0 +1,17 @@
+<div class="videcontainer" *ngIf="image">
+    <div class="img">
+       <a [routerLink]="['/bodysection',image.id,image.src]" [routerLinkActive]="['active']"> <img src={{image.src}}> </a>
+    </div>
+    <div class="label">
+        {{image.lab}}
+    </div>
+<router-outlet> </router-outlet>
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,19 @@
+.homepage {
+  display: grid;
+  // background-color: blue;
+  height: 100%;
+  grid-template-columns: 14vw 1fr;
+  grid-template-rows: 5rem calc(100vh - 5rem);
+
+  app-header {
+    // background-color: red;
+    grid-column: 1/-1;
+  }
+
+  app-sidemenu {
+    // background-color: beige;
+  }
+
+  app-bodysection {
+  }
+}

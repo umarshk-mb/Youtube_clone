@@ -1,0 +1,11 @@
+.container {
+  padding: 4rem;
+  height: 100%;
+  width: 100%;
+  background-color: #181818;
+  // color: yellow;
+  grid-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
